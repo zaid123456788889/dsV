@@ -1,0 +1,29 @@
+<html>
+    <head><title>object finder</title>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1 class="head">AI Object Finder</h1>
+            <p class="note">NOTE: the input name which you will give should match with the names present in CoCo model then onlt it will detect it.</p>
+            <h3>Object:</h3>
+            <br><br>
+            <input  type="text" id="input" placeholder="Object Name...">
+            <br>
+            <h3 id="status" class="btn btn-success s"></h3><span>
+                <h3 id="found" class="btn btn-danger f"></h3>
+            </span>
+        </center>
+    </body>
+</html>

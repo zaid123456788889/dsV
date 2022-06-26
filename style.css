@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+.head{
+    background-color: blue;
+}
+.note{
+    background-color: darkblue;
+    color: limegreen;
+}
+
+canvas{
+margin-top: 200px;
+box-shadow: 5px 5px 5px gray;
+}
